@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+body{
+background-color: #232740;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .container{
     display: grid;
     gap: 15px;
@@ -23,109 +29,122 @@
 
 .logo{
     grid-area: logo;
-    background: pink;
+    background: rgba(255, 255, 255, 0.377);
+    border-radius: 15px;
+
 }
 
 .nav{
     grid-area: nav;
-    background: rgb(192, 192, 255);
-    text-align: center;
+    background: #232740;
+    color: #C69E56;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .indl{
     grid-area: indl;
-    background:rgb(206, 206, 206);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
 }
 
 .indl > div{
     grid-column: 2/3;
-    background: rgb(189, 138, 255);
+    background: rgb(255, 255, 255);
+    color: #2e2d2d;
+    border-radius: 3px;
 }
 
 /* Spørgsmål 1 */
 
 .spg1{
     grid-area: spg1;
-    background: rgb(205, 255, 205);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg1 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 /* Spørgsmål 2 */
 
 .spg2{
     grid-area: spg2;
-    background: rgb(205, 255, 205);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg2 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 /* Spørgsmål 3 */
 
 .spg3{
     grid-area: spg3;
-    background: rgb(205, 255, 205);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg3 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 /* Spørgsmål 4 */
 
 .spg4{
     grid-area: spg4;
-    background: rgb(205, 255, 205);
+
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg4 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    
 }
 
 /* Spørgsmål 5 */
 
 .spg5{
     grid-area: spg5;
-    background: rgb(205, 255, 205);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg5 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 /* Spørgsmål 6 */
 
 .spg6{
     grid-area: spg6;
-    background: rgb(205, 255, 205);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
 }
 
 .spg6 > div{
     grid-column: 2/3;
-    background: chocolate;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
 }
 
 /* Send Knap */
@@ -135,8 +154,8 @@
 }
 
 .knap button{
-    color: rgb(0, 0, 0);
-    background: cornflowerblue;
+    color: #2e2d2d;
+    background: #C69E56;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
@@ -151,7 +170,19 @@
 
 footer{
     grid-area: footer;
-    background: hotpink;
+    background: rgba(255, 255, 255, 0.74);
+    color: #2e2d2d;
+}
+
+.textfooter{
+    text-align: left;
+    margin: 30px 10px 30px 50px;
+}
+
+.copyright{
+    text-align: center;
+    color: #C69E56;
+    margin-bottom: 15px;
 }
 
 
