@@ -44,6 +44,15 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 
+h2{
+    line-height: 10px;
+}
+
+.indl p{
+    line-height: 23px;
+    margin: 0px;
+}
+
 h3{
     margin: 10px;
 }
@@ -59,10 +68,10 @@ p{
 
 .indl > div{
     grid-column: 2/3;
-    background: rgb(255, 255, 255);
-    color: #2e2d2d;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px rgba(118, 143, 163, 0.336);
+    background: #232740;
+    color: #ffffff;
+
+  
 }
 
 /* Spørgsmål 1 */
