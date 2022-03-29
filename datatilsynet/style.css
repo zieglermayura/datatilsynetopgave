@@ -3,11 +3,26 @@
     margin: 0;
 }
 
+/* Body CSS */
+
 body{
 background-color: #232740;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+    line-height: 10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+/* Container */
 
 .container{
     display: grid;
@@ -21,11 +36,16 @@ font-family: Arial, Helvetica, sans-serif;
         "spg4 spg4 spg4 spg4"
         "spg5 spg5 spg5 spg5"
         "spg6 spg6 spg6 spg6"
+        "spg7 spg7 spg7 spg7"
+        "spg8 spg8 spg8 spg8"
+        "spg9 spg9 spg9 spg9"
         "knap knap knap knap"
         "footer footer footer footer";
 
-    grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 2fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 2fr 2fr;
 }
+
+/* Logo */
 
 .logo{
     grid-area: logo;
@@ -36,6 +56,8 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
 
+/* Navbar */
+
 .nav{
     grid-area: nav;
     background: #232740;
@@ -44,8 +66,12 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
 }
 
-h2{
-    line-height: 10px;
+/* Indledning */
+
+.indl{
+    grid-area: indl;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 .indl p{
@@ -53,25 +79,10 @@ h2{
     margin: 0px;
 }
 
-h3{
-    margin: 10px;
-}
-
-p{
-    margin: 10px;
-}
-.indl{
-    grid-area: indl;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-}
-
 .indl > div{
     grid-column: 2/3;
     background: #232740;
     color: #ffffff;
-
-  
 }
 
 /* Spørgsmål 1 */
@@ -171,6 +182,54 @@ p{
     box-shadow: 3px 3px 3px rgba(118, 143, 163, 0.336);
 }
 
+/* Spørgsmål 7*/
+
+.spg7{
+    grid-area: spg7;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
+}
+
+.spg7 > div{
+    grid-column: 2/3;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(118, 143, 163, 0.336);
+}
+
+/* Spørgsmål 8 */
+
+.spg8{
+    grid-area: spg8;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
+}
+
+.spg8 > div{
+    grid-column: 2/3;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(118, 143, 163, 0.336);
+}
+
+/* Spørgsmål 9 */
+
+.spg9{
+    grid-area: spg9;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    color: #2e2d2d;
+}
+
+.spg9 > div{
+    grid-column: 2/3;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(118, 143, 163, 0.336);
+}
+
 /* Send Knap */
 
 .knap{
@@ -226,6 +285,9 @@ Responsivt
         "spg4 spg4 spg4"
         "spg5 spg5 spg5"
         "spg6 spg6 spg6"
+        "spg7 spg7 spg7"
+        "spg8 spg8 spg8"
+        "spg9 spg9 spg9"
         "knap knap knap"
         "footer footer footer";
     }
@@ -244,13 +306,14 @@ Responsivt
         "spg4"
         "spg5"
         "spg6"
+        "spg7"
+        "spg8"
+        "spg9"
         "knap"
         "footer";
 
-    grid-template-rows: 1fr 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 2fr 2fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 2fr 2fr;
     }
-
-
 
     .indl>div{
         grid-column: 1/5;
